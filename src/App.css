@@ -1,38 +1,127 @@
-.App {
+/*--------- All of the Pages ---------*/
+
+/*The whole page*/
+main {
   text-align: center;
+  background-color: rgb(241, 226, 241);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*The title of my website*/
+.title {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  font-size: xxx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  -webkit-text-stroke: 1px orange;
+  color: silver;
+  background-color: purple;
+  padding: 2rem;
+}
+
+/*The nav bar on every page*/
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: silver;
+  padding: 1rem;
+}
+
+/*The nav bar text*/
+.navBar a {
   color: white;
+  text-decoration-line: none;
 }
 
-.App-link {
-  color: #61dafb;
+/*The title on each page*/
+.titleOfPage {
+  font-family: cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*The footer on every page*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
 }
+
+/*----------- Home Page -----------*/
+
+/*The photo and text together*/
+.profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+
+/*Just the image*/
+#portrait {
+  width: 20vw;
+}
+
+/*--------- About Me Page ---------*/
+
+/*The photos and text together*/
+.aboutMeSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*The photos with Maple and me*/
+.maple {
+  padding: 2rem;
+  width: 20vw
+}
+
+/*---------- Hobbies Page ----------*/
+
+/*The photos and text together*/
+.hobbiesPage {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Top photos of me doing silks*/
+.silksPhotos {
+  width: 15vw;
+  margin: 2rem;
+}
+
+/*Bottom photos of me skydiving*/
+.skydivePhotos {
+  width: 25vw;
+  margin: 1rem;
+}
+
+/*Photo of me with A license*/
+#ALicense {
+  width: 20vw;
+  margin-right: 3rem;
+}
+
+/*---------- Projects Page ----------*/
+
+/*GitHub and LinkedIn logo images*/
+.icons {
+  width: 15vw;
+  padding: 2rem;
+}
+
+/*-------- Work Herstory Page -------*/
+
+/*My resume*/
+.resume {
+  height: 50vh;
+  width: 50vw;
+  margin-top: 1rem;
+}
+
+/*--------- Contact Me Page ---------*/
