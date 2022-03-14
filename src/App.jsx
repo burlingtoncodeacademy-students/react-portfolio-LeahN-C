@@ -15,6 +15,7 @@ import "./App.css";
 //A function to hold all of the site content
 function App() {
   //Return statement to show Nav Bar (with links to other pages) and Footer
+  //Also includes video
   return (
     <main>
       <h1 className="title">Leah's Portfolio</h1>
@@ -51,4 +52,5 @@ function App() {
   );
 }
 
+//Exporting function
 export default App;

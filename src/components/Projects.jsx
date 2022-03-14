@@ -6,7 +6,9 @@ import linkedInLogo from "../images/linkedInLogo.jpg"
 //Importing style sheet
 import "../App.css";
 
+//Function for projects page
 function Projects() {
+  //That returns text and logos as links to my GitHub and LinkedIn accounts
   return (
     <main>
       <h2 className="titleOfPage">Projects</h2>
@@ -35,4 +37,5 @@ function Projects() {
   );
 }
 
+//Exporting function
 export default Projects;

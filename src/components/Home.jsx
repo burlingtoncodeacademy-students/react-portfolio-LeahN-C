@@ -5,8 +5,9 @@ import portrait from "../images/portrait.JPG";
 //Importing style sheet
 import "../App.css";
 
-//Function
+//Function for the home page
 function Home() {
+  //That returns the text below and a photo of me
   return (
     <main>
       <h2 className="titleOfPage">Home Page</h2>
@@ -36,4 +37,5 @@ function Home() {
   );
 }
 
+//Exporting function
 export default Home;

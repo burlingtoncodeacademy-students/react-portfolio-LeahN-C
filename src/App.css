@@ -1,10 +1,12 @@
 /*--------- All of the Pages ---------*/
 
+/*The whole page*/
 main {
   text-align: center;
   background-color: rgb(241, 226, 241);
 }
 
+/*The title of my website*/
 .title {
   display: flex;
   flex-direction: column;
@@ -18,6 +20,7 @@ main {
   padding: 2rem;
 }
 
+/*The nav bar on every page*/
 .navBar {
   display: flex;
   justify-content: space-around;
@@ -27,15 +30,18 @@ main {
   padding: 1rem;
 }
 
+/*The nav bar text*/
 .navBar a {
   color: white;
   text-decoration-line: none;
 }
 
+/*The title on each page*/
 .titleOfPage {
   font-family: cursive;
 }
 
+/*The footer on every page*/
 .footer {
   display: flex;
   flex-direction: column;
@@ -46,6 +52,7 @@ main {
 
 /*----------- Home Page -----------*/
 
+/*The photo and text together*/
 .profile {
   display: flex;
   justify-content: space-around;
@@ -53,18 +60,21 @@ main {
   padding: 2rem;
 }
 
+/*Just the image*/
 #portrait {
   width: 20vw;
 }
 
 /*--------- About Me Page ---------*/
 
+/*The photos and text together*/
 .aboutMeSection {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+/*The photos with Maple and me*/
 .maple {
   padding: 2rem;
   width: 20vw
@@ -72,29 +82,34 @@ main {
 
 /*---------- Hobbies Page ----------*/
 
+/*The photos and text together*/
 .hobbiesPage {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+/*Top photos of me doing silks*/
 .silksPhotos {
   width: 15vw;
   margin: 2rem;
 }
 
+/*Bottom photos of me skydiving*/
 .skydivePhotos {
   width: 25vw;
   margin: 1rem;
 }
 
+/*Photo of me with A license*/
 #ALicense {
   width: 20vw;
   margin-right: 3rem;
 }
 
 /*---------- Projects Page ----------*/
- 
+
+/*GitHub and LinkedIn logo images*/
 .icons {
   width: 15vw;
   padding: 2rem;
@@ -102,6 +117,7 @@ main {
 
 /*-------- Work Herstory Page -------*/
 
+/*My resume*/
 .resume {
   height: 50vh;
   width: 50vw;

@@ -1,5 +1,6 @@
 //Import React
 import React from "react";
+//Importing silks and skydiving photos
 import hipKey from "../images/hipKey.jpg";
 import inversion from "../images/inversion.jpg";
 import split from "../images/split.jpg";
@@ -7,11 +8,17 @@ import belay from "../images/belay.jpg";
 import freeFalling from "../images/freeFalling.jpg";
 import opening from "../images/opening.jpg";
 import ALicense from "../images/ALicense.jpeg"
+//Importing skydiving video
 import skydive from "../images/skydive.m4v";
 //Importing style sheet
 import "../App.css";
 
+//Function for Hobbies page
 function Hobbies() {
+  //That returns 4 photos of me doing silks
+  //2 photos of me skydiving with text in between
+  //A photo of me with my A license
+  //And a video of me skydiving
   return (
     <main>
       <h2 className="titleOfPage">Hobbies and Interests</h2>
@@ -76,4 +83,5 @@ function Hobbies() {
   );
 }
 
+//Export function
 export default Hobbies;

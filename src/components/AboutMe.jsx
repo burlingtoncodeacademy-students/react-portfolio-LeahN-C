@@ -6,7 +6,9 @@ import mapes from "../images/mapes.JPG";
 //Importing style sheet
 import "../App.css";
 
+//Function for About Me page
 function AboutMe() {
+  //That returns two photos of me and Maple with text in between
   return (
     <main>
       <h2 className="titleOfPage">About Me</h2>
@@ -70,4 +72,5 @@ function AboutMe() {
   );
 }
 
+//Export function
 export default AboutMe;
