@@ -16,8 +16,8 @@ function AboutMe() {
         <img className="maple" src={mabedies} alt="Maple and Me" />
         <div>
           What a journey I have been on to get to where I am. A year ago, I
-          never thought I would be learning to code, let along in a Software
-          Development bootcamp.
+          never thought I would be learning to code, let alone in a Software
+          Development Bootcamp.
           <br />
           <br />
           For years, I worked in many roles with children and families, and I
@@ -27,7 +27,7 @@ function AboutMe() {
           Vermont and then California for years. I have slowly been working
           toward Birth Doula certification since 2014, and in 2022 became
           certified through DONA International! I am also a trained Postpartum
-          Doula through CAPPA. In 2021, I opened an LLC for my Doula business
+          Doula through Childbirth and Postpartum Professional Association (CAPPA). In 2021, I opened an LLC for my Doula business
           called Empowered Start. I love supporting labor and birth as well as
           families postpartum, but I do not want to do that full time. I want to
           reserve that energy for special occasions.
@@ -37,7 +37,7 @@ function AboutMe() {
           about her job as a coder, and I became interested in the idea. So I
           did some research, and came across a training program at Burlington
           Code Academy (now known as Upright Education) through Community
-          College of Vermont. I applied to the part time course, and started a
+          College of Vermont (CCV). I applied to the part time "JavaScript After Hours" course, and started a
           few weeks later.
           <br />
           <br />
@@ -50,7 +50,7 @@ function AboutMe() {
           good enough or smart enough. But as I was learing how to code, I
           started to remember how good it felt to solve problems and to learn a
           language and syntax that was specific to solving a type of problem. I
-          really liked it, and although it was difficult and confusing at times,
+          really liked it, and although it was difficult and confusing at times (it still is),
           it was so rewarding when things actually worked! And so cool to be
           able to create programs from scratch!
           <br />

@@ -9,13 +9,44 @@ function Contact() {
   return (
     <main>
       <h2 className="titleOfPage">Contact Me</h2>
-      <form action="submit">
-        <div>
-          This is the place where you can contact me! This page will maybe have
-          a form eventually that submits to my email or something. Maybe. I don't fucking know.
-        </div>
+
+      <div>
+        Please feel free to email me with any questions about me, my site, or
+        Maple! We'd love to hear from you!
+      </div>
+      <br />
+      <form
+        className="contactForm"
+        action="https://formsubmit.co/cf624acdf293ab96185f44edc0bec8c7"
+        method="POST"
+      >
+        <label className="labels" htmlFor="name">
+          <span>*</span>Name:{" "}
+        </label>
+        <input type="text" name="name" required />
+        <label className="labels" htmlFor="email">
+          <span>*</span>Email Address:{" "}
+        </label>
+        <input type="email" name="email" required />
+        <label className="labels" htmlFor="subject">
+          Subject:{" "}
+        </label>
+        <input type="text" name="subject" />
+
+        <label className="labels" htmlFor="message">
+          <span>*</span>Message:{" "}
+        </label>
+        <textarea
+          className="message"
+          name="message"
+          form="signUp"
+          id=""
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
         <br />
-        <button>Maybe This Button Will Lead Somewhere Someday...</button>
+        <input className="button" type="submit" value="SEND" />
       </form>
     </main>
   );

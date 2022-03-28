@@ -35,6 +35,7 @@ function App() {
         <Route path="/work" element={<WorkHerstory />}></Route>
         <Route path="/contact" element={<ContactMe />}></Route>
       </Routes>
+      <br />
       <footer className="footer">
         <iframe
           width="200"

@@ -14,10 +14,11 @@ function Home() {
       <section className="profile">
         <img id="portrait" src={portrait} alt="Photo of Me" />
         <p>
-          Welcome to my portfolio!
+          <strong>Welcome to my portfolio!</strong>
+          <br />
           <br />
           My name is Leah, and this is my personal portfolio website that I
-          created from scratch with the JavaScript Library, React!
+          created <i>from scratch</i> with the JavaScript Library, React!
           <br />
           I am passionate, caring, motivated, and I love to learn and grow!
           <br />
@@ -29,8 +30,8 @@ function Home() {
           <br />
           <br />
           <br />
-          <br />
-          At the bottom of the page is a song that I wrote and recorded as a teenager... enjoy :)
+          <br />⬇ At the bottom of the page is a song that I wrote and recorded
+          as a teenager... enjoy :)⬇
         </p>
       </section>
     </main>

@@ -62,8 +62,8 @@ function Hobbies() {
           <br />
           I
           passed the levels, packed my own parachute and jumped with it, bought
-          an altimeter and jump suit and goggles and a helmet, and then I got my
-          A license! A couple of years and 39 jumps later, I decided to
+          an altimeter, a jump suit, goggles and a helmet, and I got my
+          A license (which allows me to jump alone, without an instructor)! A couple of years and 39 jumps later, I decided to
           "retire", at least for the time being. 
           <br />
           <br />
