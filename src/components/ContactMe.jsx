@@ -39,8 +39,6 @@ function Contact() {
         <textarea
           className="message"
           name="message"
-          form="signUp"
-          id=""
           cols="30"
           rows="10"
           required
