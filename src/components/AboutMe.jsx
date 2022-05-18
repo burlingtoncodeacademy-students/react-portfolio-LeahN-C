@@ -10,7 +10,7 @@ import "../App.css";
 function AboutMe() {
   //That returns two photos of me and Maple with text in between
   return (
-    <main>
+    <>
       <h2 className="titleOfPage">About Me</h2>
       <section className="aboutMeSection">
         <img className="maple" src={mabedies} alt="Maple and Me" />
@@ -68,7 +68,7 @@ function AboutMe() {
         </div>
         <img className="maple" src={mapes} alt="St. Patrick's Day with Maple" />
       </section>
-    </main>
+    </>
   );
 }
 

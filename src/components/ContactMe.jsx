@@ -7,7 +7,7 @@ import "../App.css";
 function Contact() {
   //That returns text and a button that doesn't work... and maybe someday a form
   return (
-    <main>
+    <>
       <h2 className="titleOfPage">Contact Me</h2>
 
       <div>
@@ -46,7 +46,7 @@ function Contact() {
         <br />
         <input className="button" type="submit" value="SEND" />
       </form>
-    </main>
+    </>
   );
 }
 

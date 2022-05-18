@@ -10,14 +10,14 @@ import "../App.css";
 function Projects() {
   //That returns text and logos as links to my GitHub and LinkedIn accounts
   return (
-    <main>
+    <>
       <h2 className="titleOfPage">Projects</h2>
       <div>
         My GitHub page (click the logo on the left) contains projects that I have completed throughout the course of this Software Development Bootcamp! 
         <br />
         On the right, is a link to my LinkedIn account!
       </div>
-      <section>
+      <section className="iconsContainer">
         <a
           className=""
           href="https://github.com/LeahN-C"
@@ -33,7 +33,7 @@ function Projects() {
           <img className="icons" src={linkedInLogo} />
         </a>
       </section>
-    </main>
+    </>
   );
 }
 

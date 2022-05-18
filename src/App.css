@@ -4,7 +4,7 @@
 main {
   text-align: center;
   background-color: rgb(241, 226, 241);
-  min-height: 60vh;
+  min-height: 100vh;
 }
 
 /*The title of my website*/
@@ -42,7 +42,7 @@ main {
 /*The title on each page*/
 .titleOfPage {
   font-family: cursive;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /*The footer on every page*/
@@ -51,8 +51,14 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  padding-top: 2rem;
+  position: static;
 }
+
+/* Song video */
+/* #song {
+  border-radius: 0.75rem;
+} */
 
 /*----------- Home Page -----------*/
 
@@ -67,6 +73,7 @@ main {
 /*Just the image*/
 #portrait {
   width: 20vw;
+  /* border-radius: 0.75rem; */
 }
 
 /*--------- About Me Page ---------*/
@@ -81,7 +88,30 @@ main {
 /*The photos with Maple and me*/
 .maple {
   padding: 2rem;
-  width: 20vw
+  width: 20vw;
+  /* border-radius: 0.75rem; */
+}
+
+@media (max-width: 1000px) {
+  .aboutMeSection {
+    flex-direction: column;
+  }
+}
+
+/*---------- Projects Page ----------*/
+ 
+/* Container where icons are */
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*GitHub and LinkedIn logo images*/
+.icons {
+  width: 15vw;
+  padding: 2rem;
+  /* border-radius: 0.75rem; */
 }
 
 /*---------- Hobbies Page ----------*/
@@ -95,14 +125,15 @@ main {
 
 /*Top photos of me doing silks*/
 .silksPhotos {
-  width: 15vw;
-  margin: 2rem;
+  width: 17vw;
+  margin: 1rem;
+  margin-top: 0;
 }
 
 /*Bottom photos of me skydiving*/
 .skydivePhotos {
   width: 25vw;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 /*Photo of me with A license*/
@@ -111,21 +142,26 @@ main {
   margin-right: 3rem;
 }
 
-/*---------- Projects Page ----------*/
-
-/*GitHub and LinkedIn logo images*/
-.icons {
-  width: 15vw;
-  padding: 2rem;
+/* For screens under 800px */
+@media (max-width: 800px) {
+  .hobbiesPage {
+    flex-direction: column;
+  }
 }
 
 /*-------- Work Herstory Page -------*/
 
+/* Whole page */
+.workPage {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 /*My resume*/
 .resume {
-  height: 38vh;
-  width: 50vw;
-  margin-top: 2rem;
+  height: 40vh;
+  width: 60vw;
+  margin-top: 1rem;
 }
 
 /*--------- Contact Me Page ---------*/
@@ -143,7 +179,7 @@ main {
 
 .message {
   width: 45vw;
-  height: 22vh;
+  height: 18vh;
 }
 
 .button {

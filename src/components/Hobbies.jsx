@@ -20,7 +20,7 @@ function Hobbies() {
   //A photo of me with my A license
   //And a video of me skydiving
   return (
-    <main>
+    <>
       <h2 className="titleOfPage">Hobbies and Interests</h2>
       <section>
         <img
@@ -79,7 +79,7 @@ function Hobbies() {
       </section>
       <img id="ALicense" src={ALicense} alt="My A License!" />
       <video controls className="skydivePhotos" src={skydive} muted></video>
-    </main>
+    </>
   );
 }
 

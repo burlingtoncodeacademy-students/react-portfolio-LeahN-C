@@ -9,7 +9,7 @@ import "../App.css";
 function Home() {
   //That returns the text below and a photo of me
   return (
-    <main>
+    <>
       <h2 className="titleOfPage">Home Page</h2>
       <section className="profile">
         <img id="portrait" src={portrait} alt="Photo of Me" />
@@ -34,7 +34,7 @@ function Home() {
           as a teenager... enjoy :)⬇
         </p>
       </section>
-    </main>
+    </>
   );
 }
 
