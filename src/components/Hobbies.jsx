@@ -77,8 +77,9 @@ function Hobbies() {
           alt="Photo of Me Skydiving"
         />
       </section>
+      <section>
       <img id="ALicense" src={ALicense} alt="My A License!" />
-      <video controls className="skydivePhotos" src={skydive} muted></video>
+      <video controls className="skydivePhotos" src={skydive} muted></video></section>
     </>
   );
 }

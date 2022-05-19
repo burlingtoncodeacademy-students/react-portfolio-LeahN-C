@@ -17,7 +17,7 @@ function App() {
   //Return statement to show Nav Bar (with links to other pages) and Footer
   //Also includes video
   return (
-    <main>
+    <div className="wholePage">
       <h1 className="title">Leah's Portfolio</h1>
       <nav className="navBar">
         <NavLink to="/">Home</NavLink>
@@ -27,6 +27,7 @@ function App() {
         <NavLink to="/work">Work Her-story</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </nav>
+      <main>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about-me" element={<AboutMe />}></Route>
@@ -35,7 +36,6 @@ function App() {
         <Route path="/work" element={<WorkHerstory />}></Route>
         <Route path="/contact" element={<ContactMe />}></Route>
       </Routes>
-      <br />
       <footer className="footer">
         <iframe
           id="song"
@@ -51,6 +51,7 @@ function App() {
         <div>Created by Leah Niemasz-Cavanagh, March 2022</div>
       </footer>
     </main>
+    </div>
   );
 }
 

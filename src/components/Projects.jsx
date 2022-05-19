@@ -12,7 +12,7 @@ function Projects() {
   return (
     <>
       <h2 className="titleOfPage">Projects</h2>
-      <div>
+      <div className="projectsText">
         My GitHub page (click the logo on the left) contains projects that I have completed throughout the course of this Software Development Bootcamp! 
         <br />
         On the right, is a link to my LinkedIn account!

@@ -1,10 +1,19 @@
 /*--------- All of the Pages ---------*/
 
 /*The whole page*/
-main {
+.wholePage {
   text-align: center;
   background-color: rgb(241, 226, 241);
   min-height: 100vh;
+}
+
+/* The main section of every page */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 78vh;
 }
 
 /*The title of my website*/
@@ -49,10 +58,10 @@ main {
 .footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding-top: 2rem;
-  position: static;
+  padding: 1rem;
+  position: sticky;
 }
 
 /* Song video */
@@ -92,14 +101,23 @@ main {
   /* border-radius: 0.75rem; */
 }
 
+/* For screens under 1000px */
 @media (max-width: 1000px) {
   .aboutMeSection {
     flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem
   }
 }
 
 /*---------- Projects Page ----------*/
- 
+
+/* Text on page */
+.projectsText {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
 /* Container where icons are */
 .iconsContainer {
   display: flex;
